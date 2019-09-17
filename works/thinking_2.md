@@ -1,6 +1,6 @@
 # 思考题 2
 
-思考题：昨天我讲的sched_init(void)中，有这样的代码，`for(i=1;i<NR_TASKS;i++) {task[i] = NULL;`……。没有涉及到 `task[0]`，我提到 `task[0]` 已经给进程 0 了，请大家找到代码证据。
+思考题：昨天我讲的 `sched_init(void)` 中，有这样的代码，`for(i=1;i<NR_TASKS;i++) {task[i] = NULL;`……。没有涉及到 `task[0]`，我提到 `task[0]` 已经给进程 0 了，请大家找到代码证据。
 
 2019-09-17
 
